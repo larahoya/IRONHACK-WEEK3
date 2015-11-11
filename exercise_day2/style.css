@@ -1,0 +1,36 @@
+.box {
+  margin: 10px;
+  float: left;
+}
+
+.blue {
+  background-color: #4666cc;
+  border: 2px solid red;
+}
+
+.green {
+  background-color: #136e0c;
+}
+
+#red {
+  background-color: #8b0e17;
+  border: 2px solid blue;
+}
+
+#top {
+  position: absolute;
+  top: 350px;
+  left: 350px;
+  z-index: 100;
+  box-shadow: 10px 10px 20px 5px #4d4647;
+}
+
+#bottom {
+  position: absolute;
+  top: 400px;
+  left: 500px;
+}
+
+h3 {
+  padding: 20px;
+}

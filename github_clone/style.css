@@ -1,0 +1,53 @@
+* {
+  font-family: Arial;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  background-color: #ECECEC;
+  display: inline-block;
+}
+
+header span{
+  float: left;
+}
+
+header form {
+  float: left;
+}
+
+footer {
+  clear: both;
+}
+
+footer nav#nav-footer-left {
+  float: left;
+}
+
+footer nav#nav-footer-right {
+  float: right;
+}
+
+nav#page-nav li {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+}
+
+nav#profile-nav li {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+}
+
+#right {
+  float: right;
+  margin-right: 40px;
+}
+
+#left {
+  float: left;
+  margin-left: 40px;
+}

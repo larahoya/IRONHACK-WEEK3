@@ -1,0 +1,86 @@
+.row.home {
+  text-align: center;
+  background-color: grey;
+  height: 550px;
+  color: white;
+}
+
+.row.content {
+  text-align: center;
+  background-color: #f96b61;
+  color: white;
+  height: 300px;
+}
+
+.row.content p {
+  margin: 0 30px;
+}
+
+.row.content h1 {
+  font-size: 30px;
+}
+
+.fa.fa-glass {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.fa.fa-star {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.fa.fa-heart {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.row.projects {
+  height: 400px;
+  margin: 0 40px;
+}
+
+.row.articles {
+  height: 550px;
+  margin: 0 40px;
+}
+
+.row.foot {
+  height: 300px;
+  background-color: #3b3b3b;
+  color: #606060;
+  text-align: left;
+  border-top: 5px solid red;
+}
+
+.row.foot div h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.footer-menu li a {
+  color: #606060;
+}
+
+.row.foot p {
+  margin: 0 30px;
+}
+
+.div-img {
+  height: 200px;
+  margin-top: 20px;
+}
+
+footer {
+  height: 100px;
+  background-color: #292929
+}
+
+.title {
+  font-size: 25px;
+}
+
+.subtitle {
+  font-size: 15px;
+}

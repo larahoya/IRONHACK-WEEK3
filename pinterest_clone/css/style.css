@@ -1,0 +1,165 @@
+body {
+  background-color:#eeeeee;
+}
+
+header {
+  height: 50px;
+  color: white;
+  box-shadow: 0 3px 10px grey;
+  width: 100%;
+}
+
+#container {
+  width: 90%;
+
+  margin: 50px auto;
+}
+
+#columns {
+  column-count: 5;
+  column-gap: 8px;
+  column-fill: auto;
+}
+
+.nav-search {
+  margin-top: 7px;
+  height: 35px;
+  width: 60%;
+  float: left;
+  border: 1px solid #a2b1a6;
+  background-color: #c9c9c9;
+  font-size: 18px;
+  color: grey;
+}
+
+.logo {
+  height: 35px;
+  width: 38px;
+  float: left;
+  margin-left: 130px;
+  margin-top: 7px;
+  border: 1px solid #a2b1a6;
+  border-radius: 10px 0 0 10px;
+}
+
+.fa.fa-pinterest-square {
+  color: red;
+  font-size: 25px;
+  margin: 4px 8px;
+}
+
+.fa.fa-bars {
+  color: grey;
+  font-size: 25px;
+  margin: 4px 8px;
+}
+
+.menu {
+  height: 35px;
+  width: 15%;
+  float: left;
+  margin-left: 12px;
+  margin-top: 7px;
+  border: 1px solid #a2b1a6;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 18px;
+  color: grey;
+}
+
+.fa.fa-comment {
+  float: right;
+  margin-right: 12px;
+  font-size: 25px;
+  margin: 4px 8px;
+  color: red;
+  padding-left: 5px;
+  border-left: 1px solid #a2b1a6
+}
+
+.search {
+  height: 35px;
+  width: 38px;
+  float: left;
+  margin-top: 7px;
+  border: 1px solid #a2b1a6;
+  border-radius: 0 10px 10px 0;
+}
+
+article.box {
+  display: inline-block;
+  width: 235px;
+  background-color: white;
+  margin: 0 2px 15px;
+  border-radius: 10px;
+  padding-bottom: 10px; 
+}
+
+.box span.from {
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.box img {
+  width: 235px;
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 10px;
+}
+
+.box h1 {
+  font-size: 16px;
+  padding-bottom: 8px;
+  padding-top: 10px;
+  border-bottom: 1px solid #d4e7d9;
+  margin: 0 10px;
+}
+
+.box p {
+  font-size: 12px;
+  margin: 0 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #d4e7d9;
+}
+
+.box span.name,
+.box span.section {
+  border: 0;
+  margin: 0 20px;
+  font-size: 12px;
+}
+
+.box i {
+  float: left;
+  margin: 10px 2px 15px 20px;
+  font-size: 22px;
+  color: red;
+}
+@media (min-width: 760px) {
+  .nav-search {
+    width:30%
+  }
+}
+
+@media (min-width: 860px) {
+  .nav-search {
+    width:30%
+  }
+}
+
+@media (min-width: 960px) {
+  .nav-search {
+    width:40%
+  }
+}
+
+@media (min-width: 1100px) {
+  .nav-search {
+    width:55%
+  }
+}
+
+@media (min-width: 1300px) {
+  .nav-search {
+    width:55%
+  }
+}
+
